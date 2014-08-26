@@ -4,7 +4,7 @@
 CMFLAGS="-D CMAKE_BUILD_TYPE:STRING=Release"
 
 # Make for linux
-cmake $CMFLAGS -D TARGETOS=Unix  . && make
+cmake $CMFLAGS -D TARGETOS=Unix  . && make $MAKEFLAGS
 
 echo
 echo
